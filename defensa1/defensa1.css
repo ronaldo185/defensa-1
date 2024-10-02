@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(52, 50, 50);
+    margin: 5px;
+    padding: 5px;
+    border: 15px;
+    border-color: rgb(51, 8, 8);
+}
+
+.logo {
+    display: flex;
+    background-color: rgb(54, 38, 194);
+    padding: 30px;
+    margin: 5px;
+    border: 5px;
+    border-color: black;
+}
+.menu {
+    display: flex;
+    background-color: rgb(135, 129, 189);
+    padding: 50px;
+    margin: 5px;
+}
+
+
+.slider-container {
+    margin: 5px;
+    padding: 50px;
+    display: grid;
+    background-color: rgb(222, 138, 102);
+    height: 100px;   
+}
+
+
+.cards2 {
+    margin: 5px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 5px;
+}
+.card2 {
+    padding: 50px;
+    background-color: rgb(66, 194, 94);
+    text-align: center;
+}
+
+.card12 {
+    padding: 50px;
+    background-color: rgb(224, 231, 225);
+    text-align: center;
+}
+.card13 {
+    padding: 50px;
+    background-color: rgb(23, 210, 42);
+    text-align: center;
+}
+.card14 {
+    padding: 50px;
+    background-color: rgb(3, 80, 9);
+    text-align: center;
+}
+.cards1 {
+    margin: 5px;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 5px;
+}
+.card1 {
+    padding: 50px;
+    background-color: rgb(76, 78, 76);
+    text-align: center;
+}
+
+.cards {
+    margin: 5px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+.card10 {
+    padding: 50px;
+    background-color: rgb(79, 11, 73);
+    text-align: center;
+}
+.card11 {
+    padding: 50px;
+    background-color: rgb(219, 59, 237);
+    text-align: center;
+}
+
+.cardss {
+    margin: 5px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+.card {
+    padding: 50px;
+    background-color: rgb(182, 53, 53);
+    text-align: center;
+}
